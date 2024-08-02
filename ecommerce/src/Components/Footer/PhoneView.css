@@ -1,0 +1,74 @@
+.phone-view {
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .newsletter, .contact, .currency, .dropdown1, .follow-us, .payments, .footer {
+    margin-bottom: 20px;
+  }
+  
+  .newsletter h3, .newsletter p, .contact p, .currency p, .follow-us p, .payments p, .footer p {
+    margin: 5px 0;
+  }
+  
+  .newsletter input {
+    width: 224px;
+    height: 47px;
+    padding:14px 24px 14px 24px;
+    border: none;
+  }
+  .subscribe-form {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .newsletter button {
+    width: 109px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+  }
+  
+  .contact, .currency {
+    font-size: 14px;
+  }
+  .contact1 p {
+    width: 400px;
+    margin:25px 0px 25px 0px ;
+  }
+  
+  .dropdown1-header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-top: 2px solid white;
+    padding-top: 24px;
+  }
+  
+  .dropdown1-content {
+    margin-top: 10px;
+  }
+  
+  .payment-icons img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  .currency img{
+    width: 60px;
+    border-radius: 500px;
+    /* padding-top : 10px; */
+  }
+  .currency div { 
+    display: flex;
+  }
+  .currency div p { 
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  

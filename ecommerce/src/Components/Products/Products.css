@@ -1,0 +1,38 @@
+.parent-product-container{
+    /* border : 2px solid; */
+    right: 50px;
+    position: absolute;
+}
+.products-container {
+  position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    /* justify-content: center; */
+    /* position: absolute; */
+    Z-index: 2;
+   
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 70%;
+    border-radius: 8px;
+  }
+  
+  .product-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

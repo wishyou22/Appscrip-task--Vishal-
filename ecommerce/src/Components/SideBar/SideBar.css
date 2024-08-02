@@ -1,0 +1,79 @@
+.sidebar {
+    position: absolute;
+    Z-index: 2;
+    /* top: 0; */
+    left: -400px;
+    /* width: 300px; */
+    height: 100%;
+    background-color: white;
+    transition: left 0.3s ease;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+   
+  }
+  
+  .sidebar.visible {
+    left: 0;
+  
+    
+  }
+  
+  .filter-button {
+   
+      background-color: white;
+      font-weight: 400;
+      font-size: 16px;
+      border: none;
+      color: #888792;
+      border-bottom: 1px solid #888792;
+    cursor: pointer;
+  }
+  
+  .filter-button:hover {
+    color: #605c5c;
+  }
+  
+  .apply-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    background-color: #218838;
+  }
+  
+  .filter-section {
+    margin-bottom: 10px;
+  }
+  
+  .filter-header {
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+    width: 300px;
+    height: 52px;
+  }
+  
+  .filter-subsection {
+    margin-left: 10px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .arrow {
+    font-size: 14px;
+  }
+  

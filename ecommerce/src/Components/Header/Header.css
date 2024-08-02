@@ -1,0 +1,46 @@
+.header{
+    /* border: 2px solid; */
+    text-align: center;
+}
+.logo{
+    display: flex;
+    /* border: 2px solid; */
+    justify-content: space-around;
+    padding-top: 36px;
+    /* gap: */
+}
+.nav-links ul{
+    display: flex;
+    justify-content: center;
+   
+    gap: 64px;
+    list-style: none;
+    padding-top: 96px;
+
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 72px;
+    
+
+}
+.header-content h1{
+    font-weight: 400;
+}
+@font-face {
+  font-family: 'SimplonNorm';  /* Specify the font family name */
+  src: url(../../Fonts/SimplonNorm-Bold-WebS.eot); /* Correct the path if necessary */
+}
+
+.header-content p {
+  margin-top: 90px;
+  width: 721px;
+  height: 80px;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'SimplonNorm-Regular-WebS';
+}
+
+  

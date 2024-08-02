@@ -1,0 +1,115 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-left: 92px;
+    margin-top: 79px;
+  }
+  
+  .subscribe, .contact {
+    width: 45%;
+  }
+  
+  .subscribe h3, .contact h3 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .subscribe p{
+    margin: 17px 0;
+  }
+  .subscribe p, .contact p {
+   
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .contact p{
+    margin-bottom: 9.5px;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    gap: 34px;
+  }
+  
+  .subscribe-form input {
+    width: 384px;
+    height: 47px;
+    padding:14px 24px 14px 24px;
+    border: none;
+  }
+  
+  .subscribe-form button {
+    width: 174px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin-top: 36px;
+    margin-left: 92px;
+  }
+  
+  .links, .quick-links, .follow-us {
+    width: 30%;
+  }
+  
+  .links ul, .quick-links ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  .links li, .quick-links li {
+    margin: 5px 0;
+    margin-top: 21px;
+   
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    margin: 48px 0px 88px 0px;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .payment-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .payment-icons i {
+    font-size: 24px;
+  }
+  
+  hr {
+    border-color: #333;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  

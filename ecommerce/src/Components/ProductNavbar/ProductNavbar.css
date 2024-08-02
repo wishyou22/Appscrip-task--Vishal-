@@ -1,0 +1,28 @@
+.Main-parent-navbar{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
+.parent-product-navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 1248px;
+    border: 1px 0px 1px 0px solid #E5E5E5;
+    padding : 24px
+   
+}
+.child-product-navbar{
+    display: flex;
+    gap: 83px;
+}
+.content {
+    display: flex;
+}
+
+.products {
+    transition: width 0.3s ease;
+}
+
+.products.shrink {
+    width: calc(100% - 200px); /* Adjust 200px based on your sidebar width */
+}

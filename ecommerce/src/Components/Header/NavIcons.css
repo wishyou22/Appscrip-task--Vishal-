@@ -1,0 +1,14 @@
+.nav-icons{
+width: 244px;
+height:24px;
+display: flex;
+/* top: 46px;
+left: 1100px;
+gap: 24px;
+opacity: 0px; */
+
+}
+.child-nav{
+    flex: 1;
+    /* border: 2px solid; */
+}
